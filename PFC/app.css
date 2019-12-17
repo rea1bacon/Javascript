@@ -1,0 +1,21 @@
+.score {
+    margin: 5vh auto;
+    font-size: 2.5em;
+    background-color: black;
+    color: #FFF;
+    width: 34vh;
+    padding: 8px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.display {
+    font-size: 2em;
+    padding: 10vh;
+    text-align: center;
+    border-radius: 6px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P-F-C</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark";>
+            <a class="navbar-brand" href="#">Pierre, Feuille, Ciseaux</a>
+          </nav>
+    </header>
+    <div class="container text-center mt-4">
+        <h1>Pierre, Feuille, Ciseaux</h1>
+    </div>
+    <div class="score">
+        <span>User </span><span id="score">0 : 0</span><span> Bot</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <img src="img/stone.png" alt="Stone" id="p" class="col img-fluid mt-4 mx-auto col-sm-2 img-responsive" style="width: 100%;">
+            <img src="img/scissors.png" alt="Stone" id="c" class="col img-fluid mt-4 mx-auto col-sm-2 img-responsive" style="width: 100%;">
+            <img src="img/paper.png" alt="Stone" id="f" class="col img-fluid mt-4 mx-auto col-sm-2 img-responsive" style="width: 100%;">
+        </div>
+    </div>
+    <div class="display" id="display">
+
+    </div>
+</body>
+</html>
+<script src="app.js"></script>
